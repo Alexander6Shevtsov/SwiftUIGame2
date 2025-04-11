@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GameSliderView: View {
-    @Bindable var gameViewModel: GameViewModel
+    @Bindable var gameViewModel: GameViewModel // @Bindable обратная связь
     let color: UIColor
     
     var body: some View {
@@ -16,13 +16,13 @@ struct GameSliderView: View {
             let targetValue = gameViewModel.gameOptions.targetValue
             Text("Подвиньте слайдер, как можно ближе к: \(targetValue)")
             HStack {
-                Text("0")
-                UISliderRepresentation(
-                    value: $gameViewModel.gameOptions.currentValue,
-                    alpha: gameViewModel.alpha,
+                Text("0") // диапазон от
+                UISliderRepresentation( // слайдер
+                    value: $gameViewModel.gameOptions.currentValue, // значение
+                    alpha: gameViewModel.alpha, // прозрачность
                     color: color
                 )
-                Text("100")
+                Text("100") // диапазон до
             }
             .padding()
         }

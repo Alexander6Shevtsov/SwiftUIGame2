@@ -6,30 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		420ACF872DA8FF5500582F06 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ACF752DA8FF5500582F06 /* GameView.swift */; };
+		420ACF882DA8FF5500582F06 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ACF762DA8FF5500582F06 /* GameViewModel.swift */; };
+		420ACF892DA8FF5500582F06 /* GameOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ACF782DA8FF5500582F06 /* GameOptions.swift */; };
+		420ACF8A2DA8FF5500582F06 /* GameSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ACF7A2DA8FF5500582F06 /* GameSliderView.swift */; };
+		420ACF8B2DA8FF5500582F06 /* UISliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ACF7B2DA8FF5500582F06 /* UISliderRepresentation.swift */; };
+		420ACF8D2DA8FF5500582F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ACF7E2DA8FF5500582F06 /* AppDelegate.swift */; };
+		420ACF8E2DA8FF5500582F06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420ACF852DA8FF5500582F06 /* SceneDelegate.swift */; };
+		420ACF8F2DA8FF5500582F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420ACF7F2DA8FF5500582F06 /* Assets.xcassets */; };
+		420ACF912DA8FF5500582F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420ACF822DA8FF5500582F06 /* LaunchScreen.storyboard */; };
+		420ACF922DA8FF5500582F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420ACF842DA8FF5500582F06 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		420ACF4E2DA806C900582F06 /* SwiftUIGame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIGame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420ACF752DA8FF5500582F06 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		420ACF762DA8FF5500582F06 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		420ACF782DA8FF5500582F06 /* GameOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOptions.swift; sourceTree = "<group>"; };
+		420ACF7A2DA8FF5500582F06 /* GameSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSliderView.swift; sourceTree = "<group>"; };
+		420ACF7B2DA8FF5500582F06 /* UISliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRepresentation.swift; sourceTree = "<group>"; };
+		420ACF7E2DA8FF5500582F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		420ACF7F2DA8FF5500582F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		420ACF802DA8FF5500582F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420ACF812DA8FF5500582F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		420ACF832DA8FF5500582F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		420ACF852DA8FF5500582F06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		420ACF602DA806CA00582F06 /* Exceptions for "SwiftUIGame2" folder in "SwiftUIGame2" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 420ACF4D2DA806C900582F06 /* SwiftUIGame2 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		420ACF502DA806C900582F06 /* SwiftUIGame2 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				420ACF602DA806CA00582F06 /* Exceptions for "SwiftUIGame2" folder in "SwiftUIGame2" target */,
-			);
-			path = SwiftUIGame2;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		420ACF4B2DA806C900582F06 /* Frameworks */ = {
@@ -45,7 +48,7 @@
 		420ACF452DA806C900582F06 = {
 			isa = PBXGroup;
 			children = (
-				420ACF502DA806C900582F06 /* SwiftUIGame2 */,
+				420ACF862DA8FF5500582F06 /* SwiftUIGame2 */,
 				420ACF4F2DA806C900582F06 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +59,64 @@
 				420ACF4E2DA806C900582F06 /* SwiftUIGame2.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		420ACF772DA8FF5500582F06 /* GameViews */ = {
+			isa = PBXGroup;
+			children = (
+				420ACF752DA8FF5500582F06 /* GameView.swift */,
+				420ACF762DA8FF5500582F06 /* GameViewModel.swift */,
+			);
+			path = GameViews;
+			sourceTree = "<group>";
+		};
+		420ACF792DA8FF5500582F06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				420ACF782DA8FF5500582F06 /* GameOptions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		420ACF7D2DA8FF5500582F06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				420ACF7A2DA8FF5500582F06 /* GameSliderView.swift */,
+				420ACF7B2DA8FF5500582F06 /* UISliderRepresentation.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		420ACF862DA8FF5500582F06 /* SwiftUIGame2 */ = {
+			isa = PBXGroup;
+			children = (
+				420ACF772DA8FF5500582F06 /* GameViews */,
+				420ACF792DA8FF5500582F06 /* Models */,
+				420ACF7D2DA8FF5500582F06 /* Views */,
+				420ACF932DA8FF6500582F06 /* Storyboards */,
+				420ACF942DA8FF7F00582F06 /* App */,
+				420ACF7F2DA8FF5500582F06 /* Assets.xcassets */,
+				420ACF802DA8FF5500582F06 /* Info.plist */,
+			);
+			path = SwiftUIGame2;
+			sourceTree = "<group>";
+		};
+		420ACF932DA8FF6500582F06 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				420ACF842DA8FF5500582F06 /* Main.storyboard */,
+				420ACF822DA8FF5500582F06 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		420ACF942DA8FF7F00582F06 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				420ACF7E2DA8FF5500582F06 /* AppDelegate.swift */,
+				420ACF852DA8FF5500582F06 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +133,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				420ACF502DA806C900582F06 /* SwiftUIGame2 */,
 			);
 			name = SwiftUIGame2;
 			packageProductDependencies = (
@@ -122,6 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420ACF8F2DA8FF5500582F06 /* Assets.xcassets in Resources */,
+				420ACF912DA8FF5500582F06 /* LaunchScreen.storyboard in Resources */,
+				420ACF922DA8FF5500582F06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +193,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420ACF872DA8FF5500582F06 /* GameView.swift in Sources */,
+				420ACF882DA8FF5500582F06 /* GameViewModel.swift in Sources */,
+				420ACF892DA8FF5500582F06 /* GameOptions.swift in Sources */,
+				420ACF8A2DA8FF5500582F06 /* GameSliderView.swift in Sources */,
+				420ACF8B2DA8FF5500582F06 /* UISliderRepresentation.swift in Sources */,
+				420ACF8D2DA8FF5500582F06 /* AppDelegate.swift in Sources */,
+				420ACF8E2DA8FF5500582F06 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		420ACF822DA8FF5500582F06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420ACF812DA8FF5500582F06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		420ACF842DA8FF5500582F06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420ACF832DA8FF5500582F06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		420ACF622DA806CA00582F06 /* Debug */ = {
@@ -151,8 +238,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -160,9 +247,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Shevtsov.SwiftUIGame2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -179,8 +270,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -188,9 +279,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Shevtsov.SwiftUIGame2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
